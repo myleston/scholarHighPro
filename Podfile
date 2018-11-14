@@ -14,6 +14,7 @@ target 'ScholarHighPrototype1' do
   pod 'RealmSwift'
   pod 'SVProgressHUD'
   pod 'SwipeCellKit'
+  pod 'iosMath'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
   post_install do |installer|

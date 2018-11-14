@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import iosMath
 
 class welcomeViewController: UIViewController {
 
@@ -16,12 +17,35 @@ class welcomeViewController: UIViewController {
     @IBOutlet weak var nameMissingAlert: UILabel!
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var mathView: UIView!
+  
+    @IBOutlet weak var textView: MTMathUILabel!
+    
+    
+//    let mathView: MTMathUILabel = MTMathUILabel()
+//    mathView.latex = userNameTextField.text
+//    mathView.sizeToFit()
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    
+        //iosmath version
+        print(iosMathVersionNumber)
+
+        let mathLabel: MTMathUILabel = MTMathUILabel()
+        mathLabel.latex = "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}"
+        mathLabel.sizeToFit()
+        mathLabel.frame = CGRect(x: self.mathView.frame.width/8,
+                                 y: self.mathView.frame.height / 8,
+                                 width: self.mathView.frame.width,
+                                 height: self.mathView.frame.height)
+        self.mathView.addSubview(mathLabel)
+        
+        self.textView.latex = "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^N (x_i - \\mu)^2}"
+
         
         
         // Do any additional setup after loading the view.

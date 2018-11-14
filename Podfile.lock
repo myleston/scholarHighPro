@@ -118,6 +118,7 @@ PODS:
     - gRPC-Core (= 1.14.0)
     - gRPC-RxLibrary (= 1.14.0)
   - GTMSessionFetcher/Core (1.2.0)
+  - iosMath (0.9.4)
   - leveldb-library (1.20)
   - MessageKit (1.0.0)
   - nanopb (0.3.8):
@@ -140,6 +141,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Firestore
   - Firebase/Storage
+  - iosMath
   - MessageKit
   - RealmSwift
   - SVProgressHUD
@@ -164,6 +166,7 @@ SPEC REPOS:
     - gRPC-ProtoRPC
     - gRPC-RxLibrary
     - GTMSessionFetcher
+    - iosMath
     - leveldb-library
     - MessageKit
     - nanopb
@@ -201,6 +204,7 @@ SPEC CHECKSUMS:
   gRPC-ProtoRPC: 76f6053639a842e1fb45fa82aa598bf3f4d9f66f
   gRPC-RxLibrary: 3c305f32155024b116b780f389323c73a28197e6
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
@@ -210,6 +214,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
 
-PODFILE CHECKSUM: c1f3c82cc2004a51f0bc3308c49ba1ab7959dc2c
+PODFILE CHECKSUM: cfbedecab99aa605a28b732a77b68a3b47ac8fb5
 
 COCOAPODS: 1.6.0.beta.1
