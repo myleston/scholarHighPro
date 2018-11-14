@@ -13,7 +13,7 @@ import FirebaseAuth
 import RealmSwift
 import Realm
 
-class TableViewController: UITableViewController {
+class TableViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
 
     @IBOutlet weak var classNameBar: UINavigationItem!
     @IBOutlet weak var classView: UITableView!
@@ -24,9 +24,11 @@ class TableViewController: UITableViewController {
     let searchController = UISearchController(searchResultsController: nil)
     
     
-    //new02
-    var filteredRooms = [Room]()
+    //photo
+    let imagePicker = UIImagePickerController()
+    var pickedImage : UIImage?
     
+    var filteredRooms = [Room]()
     // new declarations
     let db = Firestore.firestore()
     let realm = try! Realm()
@@ -103,7 +105,7 @@ class TableViewController: UITableViewController {
         // Setup the Search Controller
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search Candies"
+        searchController.searchBar.placeholder = "Search topics"
         
   
         
@@ -311,4 +313,3 @@ extension TableViewController: UISearchBarDelegate {
     }
 }
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

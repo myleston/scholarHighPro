@@ -14,13 +14,15 @@
 		4AA3897E2174A6E7008F1A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3897D2174A6E7008F1A9F /* Assets.xcassets */; };
 		4AA389812174A6E7008F1A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3897F2174A6E7008F1A9F /* LaunchScreen.storyboard */; };
 		4AA389892174A8F0008F1A9F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA389882174A8F0008F1A9F /* TableViewController.swift */; };
-		4AE525DD2184134500101817 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE525DC2184134500101817 /* LogInViewController.swift */; };
+		4AE525DD2184134500101817 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE525DC2184134500101817 /* welcomeViewController.swift */; };
 		4AE525E121841F9500101817 /* Appdefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE525E021841F9500101817 /* Appdefs.swift */; };
 		FF3A05C92195E5F100E0DF2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3A05C82195E5F100E0DF2F /* GoogleService-Info.plist */; };
 		FF3A05CC2196020B00E0DF2F /* SwipeTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3A05CB2196020B00E0DF2F /* SwipeTableController.swift */; };
+		FF3B7A48219B2C1E003851CD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3B7A47219B2C1E003851CD /* LogInViewController.swift */; };
 		FF465ECC219AD38600325308 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF465ECB219AD38600325308 /* Room.swift */; };
 		FF465ECE219AD4A800325308 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF465ECD219AD4A800325308 /* Class.swift */; };
 		FF465ED0219AD4E600325308 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF465ECF219AD4E600325308 /* Message.swift */; };
+		FF465ED4219AF82700325308 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF465ED3219AF82700325308 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +34,18 @@
 		4AA389802174A6E7008F1A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA389822174A6E7008F1A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA389882174A8F0008F1A9F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		4AE525DC2184134500101817 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		4AE525DC2184134500101817 /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		4AE525E021841F9500101817 /* Appdefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appdefs.swift; sourceTree = "<group>"; };
 		B5B7F0ED0C735F63869DE6DD /* Pods-ScholarHighPrototype1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScholarHighPrototype1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScholarHighPrototype1/Pods-ScholarHighPrototype1.release.xcconfig"; sourceTree = "<group>"; };
 		C29F732C6CF7D5A963816AB9 /* Pods-ScholarHighPrototype1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScholarHighPrototype1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScholarHighPrototype1/Pods-ScholarHighPrototype1.debug.xcconfig"; sourceTree = "<group>"; };
 		C678AF9AD9A3A2D4B6BB1C7D /* Pods_ScholarHighPrototype1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScholarHighPrototype1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3A05C82195E5F100E0DF2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF3A05CB2196020B00E0DF2F /* SwipeTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableController.swift; sourceTree = "<group>"; };
+		FF3B7A47219B2C1E003851CD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		FF465ECB219AD38600325308 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		FF465ECD219AD4A800325308 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 		FF465ECF219AD4E600325308 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FF465ED3219AF82700325308 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 				4AA3897F2174A6E7008F1A9F /* LaunchScreen.storyboard */,
 				4AA3897A2174A6E5008F1A9F /* Main.storyboard */,
 				4AA389882174A8F0008F1A9F /* TableViewController.swift */,
-				4AE525DC2184134500101817 /* LogInViewController.swift */,
+				4AE525DC2184134500101817 /* welcomeViewController.swift */,
 				4A7FB6B72175CB5500F8EB8B /* RoomController.swift */,
 				FF3A05CB2196020B00E0DF2F /* SwipeTableController.swift */,
+				FF465ED3219AF82700325308 /* RegisterViewController.swift */,
+				FF3B7A47219B2C1E003851CD /* LogInViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
@@ -252,6 +259,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
@@ -295,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE525DD2184134500101817 /* LogInViewController.swift in Sources */,
+				4AE525DD2184134500101817 /* welcomeViewController.swift in Sources */,
+				FF465ED4219AF82700325308 /* RegisterViewController.swift in Sources */,
+				FF3B7A48219B2C1E003851CD /* LogInViewController.swift in Sources */,
 				4AA389772174A6E5008F1A9F /* AppDelegate.swift in Sources */,
 				FF465ECC219AD38600325308 /* Room.swift in Sources */,
 				FF465ED0219AD4E600325308 /* Message.swift in Sources */,

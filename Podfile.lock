@@ -131,6 +131,7 @@ PODS:
   - Realm/Headers (3.11.0)
   - RealmSwift (3.11.0):
     - Realm (= 3.11.0)
+  - SVProgressHUD (2.2.5)
   - SwipeCellKit (2.5.0)
 
 DEPENDENCIES:
@@ -141,6 +142,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - MessageKit
   - RealmSwift
+  - SVProgressHUD
   - SwipeCellKit
 
 SPEC REPOS:
@@ -168,6 +170,7 @@ SPEC REPOS:
     - Protobuf
     - Realm
     - RealmSwift
+    - SVProgressHUD
     - SwipeCellKit
 
 EXTERNAL SOURCES:
@@ -204,8 +207,9 @@ SPEC CHECKSUMS:
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
   RealmSwift: 5f0481cd658bb751c509314b964a35eaa264d2cf
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
 
-PODFILE CHECKSUM: 18c8cb60c340d6eefbbc0a4856831933dbcfc147
+PODFILE CHECKSUM: c1f3c82cc2004a51f0bc3308c49ba1ab7959dc2c
 
 COCOAPODS: 1.6.0.beta.1

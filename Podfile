@@ -12,6 +12,7 @@ target 'ScholarHighPrototype1' do
   pod 'Firebase/Storage'
   pod 'Firebase/Firestore'
   pod 'RealmSwift'
+  pod 'SVProgressHUD'
   pod 'SwipeCellKit'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
